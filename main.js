@@ -80,7 +80,7 @@ function my_keydown(e){
             car2_y -= 10;
             console.log("When up arrow is pressed, x = " + car2_x + " | y = " + car2_y);
             uploadBackground();
-            uploadrover();
+            uploadcar2();
             uploadwater();
     }
     };
@@ -89,7 +89,7 @@ function my_keydown(e){
         car1_y += 10;
         console.log("When up arrow is pressed, x = " + car2_x + " | y = " + car2_y);
         uploadBackground();
-        uploadrover();
+        uploadcar2();
         uploadwater();
     }
     };
@@ -98,7 +98,7 @@ function my_keydown(e){
             car2_x -= 10;
             console.log("When up arrow is pressed, x = " + car2_x + " | y = " + car2_y);
             uploadBackground();
-            uploadrover();
+            uploadcar2();
             uploadwater();
         }
         };
@@ -107,7 +107,7 @@ function my_keydown(e){
                 car2_x+= 10;
                 console.log("When up arrow is pressed, x = " + car2_x + " | y = " + car2_y);
                 uploadBackground();
-                uploadrover();
+                uploadcar2();
                 uploadwater();
             }
             };
@@ -121,7 +121,7 @@ function my_keydown(e){
                     car1_y -= 10;
                     console.log("When up arrow is pressed, x = " + car1_x + " | y = " + car1_y);
                     uploadBackground();
-                    uploadrover();
+                    uploadcar1();
                     uploadwater();
             }
             };
@@ -130,7 +130,7 @@ function my_keydown(e){
                 var1_y += 10;
                 console.log("When up arrow is pressed, x = " + car1_x + " | y = " + car1_y);
                 uploadBackground();
-                uploadrover();
+                uploadcar1();
                 uploadwater();
             }
             };
@@ -139,7 +139,7 @@ function my_keydown(e){
                     car1_x -= 10;
                     console.log("When up arrow is pressed, x = " + car1_x + " | y = " + car1_y);
                     uploadBackground();
-                    uploadrover();
+                    uploadcar1();
                     uploadwater();
                 }
                 };
@@ -148,12 +148,16 @@ function my_keydown(e){
                         car1_x+= 10;
                         console.log("When up arrow is pressed, x = " + car1_x + " | y = " + car1_y);
                         uploadBackground();
-                        uploadrover();
+                        uploadcar1();
                         uploadwater();
                     }
                     };
             if(car1_x > 700){
-                console.log("Car 1 Won the Game");
-                document.getElementById('game_status').innerHTML = "!!!Car 1 Won the Game!!!";
+                console.log("Car 1 Won The Game");
+                document.getElementById('game_status').innerHTML = "!!!Car 1 Won The Game!!!";
 
+            }
+            if(car2_x > 700){
+            console.log("Car 2 Won The Game");
+            document.getElementById('game_status').innerHTML = "!!!Car 2 Won The Game!!!";
             }
