@@ -2,16 +2,15 @@ canvas=document.getElementById("myCanvas");
 ctx=canvas.getContext("2d");
 car1_height=70;
 car1_width=120;
-background_image="race_track.png";
 car1_image="car1.png";
 car1_x=10;
 car1_y=10;
-
 car2_height=70;
 car2_width=120;
 car2_image="car2.png";
 car2_x=10;
 car2_y=100;
+background_image="race_track.png";
 
 function add(){
     background_imgTag = new Image();
