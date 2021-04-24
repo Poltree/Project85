@@ -81,7 +81,7 @@ function my_keydown(e){
             console.log("When up arrow is pressed, x = " + car2_x + " | y = " + car2_y);
             uploadBackground();
             uploadcar2();
-            uploadwater();
+            
     }
     };
     function down(){
@@ -90,7 +90,7 @@ function my_keydown(e){
         console.log("When up arrow is pressed, x = " + car2_x + " | y = " + car2_y);
         uploadBackground();
         uploadcar2();
-        uploadwater();
+        
     }
     };
     function left(){
@@ -99,7 +99,7 @@ function my_keydown(e){
             console.log("When up arrow is pressed, x = " + car2_x + " | y = " + car2_y);
             uploadBackground();
             uploadcar2();
-            uploadwater();
+            
         }
         };
         function right(){
@@ -108,7 +108,7 @@ function my_keydown(e){
                 console.log("When up arrow is pressed, x = " + car2_x + " | y = " + car2_y);
                 uploadBackground();
                 uploadcar2();
-                uploadwater();
+                
             }
             };
 
@@ -122,7 +122,7 @@ function my_keydown(e){
                     console.log("When up arrow is pressed, x = " + car1_x + " | y = " + car1_y);
                     uploadBackground();
                     uploadcar1();
-                    uploadwater();
+                    
             }
             };
             function s(){
@@ -131,7 +131,7 @@ function my_keydown(e){
                 console.log("When up arrow is pressed, x = " + car1_x + " | y = " + car1_y);
                 uploadBackground();
                 uploadcar1();
-                uploadwater();
+                
             }
             };
             function a(){
@@ -140,7 +140,7 @@ function my_keydown(e){
                     console.log("When up arrow is pressed, x = " + car1_x + " | y = " + car1_y);
                     uploadBackground();
                     uploadcar1();
-                    uploadwater();
+                    
                 }
                 };
                 function d(){
@@ -149,7 +149,7 @@ function my_keydown(e){
                         console.log("When up arrow is pressed, x = " + car1_x + " | y = " + car1_y);
                         uploadBackground();
                         uploadcar1();
-                        uploadwater();
+                        
                     }
                     };
             if(car1_x > 700){
